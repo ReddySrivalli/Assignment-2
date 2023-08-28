@@ -1,0 +1,10 @@
+ascii_dict = {}
+
+# Fill the dictionary with alphabet keys and their ASCII values using loops
+for char_code in range(97, 123):  # ASCII codes for 'a' to 'z'
+    character = chr(char_code)
+    ascii_dict[character] = char_code
+
+# Print the dictionary
+for key, value in ascii_dict.items():
+    print(f"{key}: {value}")
